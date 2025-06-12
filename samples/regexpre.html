@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const str1=/hello/;
+        const str2='hello everyone'
+        console.log(str1.test(str2))//true
+
+        const str3=/[0-9]+/
+        const str4="apple 16"
+        console.log(str4.match(str3))
+
+        const str5=/hello/gi;
+        const str6='Hello everyone Hello everyone'
+        console.log(str6.match(str5))
+
+        const str7=/welcome\s(java)/
+        const str8='welcome java batch67 javascript'
+        console.log(str7.exec(str8))
+
+        const str9='welcome to Teks Academy'
+        const str10=/Teks/
+        console.log(str9.search(str10))//index value
+
+        console.log(str9.replace(str10,'JAVA'))
+    </script>
+</body>
+</html>

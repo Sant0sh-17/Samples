@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bulb-div img{
+    width: 120px;
+   
+}
+.cat-div img{
+    width: 200px;
+    margin-right: 20px;
+}
+#switch-status{
+    color: #0a0909;
+}
+.switch-div{
+    background-color: aliceblue;
+    padding: 20px 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.switch-div button{
+    margin: 10px 5px;
+    width: 50px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.switch-div h2{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+#btn-on{
+    background-color:rgb(207, 199, 199) ;
+    color: gray;
+}
+#btn-off{
+    background-color:red;
+    color: #fff;
+}
